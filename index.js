@@ -1,4 +1,4 @@
-const DHT = require('@hyperswarm/dht')
+const DHT = require('@web4/dht')
 
 module.exports = async function createTestnet (size = 10, opts = {}) {
   const swarm = []

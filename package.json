@@ -1,19 +1,19 @@
 {
-  "name": "@hyperswarm/testnet",
+  "name": "@web4/testnet",
   "version": "1.0.1",
-  "description": "Small module to help you spin up a local Hyperswarm testnet",
+  "description": "Small module to help you spin up a local Bitswarm testnet",
   "main": "index.js",
   "dependencies": {
-    "@hyperswarm/dht": "^5.0.12"
+    "@web4/dht": "^2.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperswarm/testnet.git"
+    "url": "https://github.com/bitwebs/testnet.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hyperswarm/testnet/issues"
+    "url": "https://github.com/bitwebs/testnet/issues"
   },
-  "homepage": "https://github.com/hyperswarm/testnet"
+  "homepage": "https://github.com/bitwebs/testnet"
 }

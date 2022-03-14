@@ -1,9 +1,9 @@
-# @hyperswarm/testnet
+# @web4/testnet
 
-Small module to help you spin up a local Hyperswarm testnet.
+Small module to help you spin up a local Bitswarm testnet.
 
 ```
-npm install @hyperswarm/testnet
+npm install @web4/testnet
 ```
 
 Use this if you want to use the swarm in tests, etc.
@@ -11,7 +11,7 @@ Use this if you want to use the swarm in tests, etc.
 ## Usage
 
 ``` js
-const createTestnet = require('@hyperswarm/testnet')
+const createTestnet = require('@web4/testnet')
 
 const nodes = await createTestnet(10) // create a local testnet with 10 dht nodes
 const bootstrap = [{ host: '127.0.0.1', port: nodes[0].address().port }] // the bootstrap address for this testnet
